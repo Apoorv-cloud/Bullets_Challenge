@@ -167,10 +167,15 @@ body {
 }
 .row{
     display: flex;
-    flex: 33.33%;
-    padding: 0px 20px;
-    justify-content: space-between;
-    max-width: 400px;
+    padding-left: 50px;
+   justify-content: space-between;
+   max-width: 450px;
+   font-family: var(--primary-font);
+   font-size: 1rem;
+   line-height: 1.5;
+   font-weight: 400;
+   color: var(--primary-color);
+  
 }
 .follow-us 
     {font-size: 24px;
@@ -198,8 +203,8 @@ body {
         margin: 0 auto;
         justify-content: space-between
     }
-    .col-12 col-md-6 text-md-right py-2{
-flex: auto;
+    .col-12 col-md-3  text-md-center{
+        font-family: var(--primary-font);
     }
     .horizontal_border {
         border-bottom: 1px solid #dddddd;
@@ -207,6 +212,17 @@ flex: auto;
         border-bottom-style: solid;
         border-bottom-color: rgb(221, 221, 221);
     }
+    .copyright-area{
+       
+       justify-content: space-between;
+       max-width: 600px;
+        font-family: var(--primary-font);
+        font-size: 1rem;
+        line-height: 1.5;
+        color: var(--primary-color);
+        
+    }
+
 
 @media (min-width: 768px){
     .mt-3, .my-3 {
@@ -228,3 +244,4 @@ flex: auto;
 }
 
 }
+
