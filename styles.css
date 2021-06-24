@@ -80,13 +80,14 @@
     .footer{
         padding: 80px 10px;
     }
-    .bom{
-        
+    .follow-us{
+        padding: relative;
     }
 
 
 .mt-3, .my-3 {
         margin-top: 1rem!important;
+        
     }
     .text-md-left {
     text-align: left!important;
@@ -211,13 +212,23 @@ body {
     justify-content: space-between;
     max-width: 400px;
 }
+.row2{
+    display: flex;
+    flex: 33.33%;
+    padding: 0px 30px;
+    justify-content: space-between;
+    max-width: 400px;
+    width: auto;
+   height: auto;
+   
+}
 .follow-us 
     {font-size: 24px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     margin-top: 10px;
     justify-content: space-between;
-    max-width: 400px;
+    max-width:inherit;
     }
     
      
@@ -229,8 +240,6 @@ body {
     position: relative;
     font-weight: 900;
     width: auto;
-    column-gap: 10%;
-    text-overflow: ellipsis;
     
     margin-bottom: 30px;
     min-width: 0;
