@@ -208,7 +208,6 @@ body {
 .row{
     display: flex;
     flex: 33.33%;
-    padding: 0px 30px;
     justify-content: space-between;
     max-width: 400px;
 }
