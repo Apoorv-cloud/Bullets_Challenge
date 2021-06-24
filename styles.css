@@ -212,16 +212,13 @@ body {
     justify-content: space-between;
     max-width: 400px;
 }
-.row2{
-    display: flex;
-    flex: 33.33%;
-    padding: 0px 30px;
-    justify-content: space-between;
-    max-width: 400px;
+
+.row img{
     width: auto;
    height: auto;
-   
+
 }
+
 .follow-us 
     {font-size: 24px;
     padding-bottom: 20px;
