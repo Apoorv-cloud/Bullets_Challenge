@@ -36,6 +36,12 @@
     border-radius: 20px;
     
 }
+
+.profCard img{
+   width: auto;
+   height: auto;
+    
+}
  
  .a{
     padding-top: 20px;
